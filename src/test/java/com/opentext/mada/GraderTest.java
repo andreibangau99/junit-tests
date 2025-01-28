@@ -65,7 +65,7 @@ public class GraderTest {
     public void negativeOneShouldReturnIllegalArgumentException() throws InterruptedException {
         Grader grader = new Grader();
         System.out.println("before sleep");
-        Thread.sleep(1000000);
+//        Thread.sleep(1000000);
         System.out.println("after sleep");
         assertThrows(IllegalArgumentException.class, () -> {
             grader.determineLetterGrade(-1);
