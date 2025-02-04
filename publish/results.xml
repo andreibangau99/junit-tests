@@ -35,3 +35,4 @@ uftReportDir is C:\jenkins-agent\_test_sources\_574fice__git_rg.ites.testoffice.
   <stdioRetention>ALL</stdioRetention>
   <keepTestNames>false</keepTestNames>
   <keepProperties>false</keepProperties>
+</result>
