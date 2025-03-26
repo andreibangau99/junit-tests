@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<testsuites>
+
     <test-suite type="TestFixture" name="CalculatorTests">
         <test-suite type="ParameterizedTest" name="DivideTests">
             <test-case name="Divide(6,2)" result="Passed"/>
@@ -8,4 +8,3 @@
             </test-case>
         </test-suite>
     </test-suite>
-</testsuites>
