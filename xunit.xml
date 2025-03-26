@@ -1,0 +1,10 @@
+<test-run>
+    <test-suite type="TestFixture" name="CalculatorTests">
+        <test-suite type="ParameterizedTest" name="DivideTests">
+            <test-case name="Divide(6,2)" result="Passed"/>
+            <test-case name="Divide(6,0)" result="Failed">
+                <failure>Division by zero</failure>
+            </test-case>
+        </test-suite>
+    </test-suite>
+</test-run>
