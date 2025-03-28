@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-28T11:15:28.415426" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="D:\RobotFramework\src\tests">
+<suite id="s1-s1" name="Nested Suite" source="D:\RobotFramework\src\tests\nested_suite">
+<suite id="s1-s1-s1" name="SuiteC" source="D:\RobotFramework\src\tests\nested_suite\SuiteC.robot">
+<test id="s1-s1-s1-t1" name="Test Case 1" line="12">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:28.460675" level="INFO">Test Case 1</msg>
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:28.460486" elapsed="0.000264"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:28.461354" level="INFO">This is a global variable!</msg>
+<arg>${GLOBAL_VAR1}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:28.461123" elapsed="0.000306"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:31.462382" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:28.461692" elapsed="3.000801"/>
+</kw>
+<doc>@TSCID1109: Verify login functionality</doc>
+<tag>not ready</tag>
+<tag>requirement: 42</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2025-03-28T11:15:28.459284" elapsed="3.003645"/>
+</test>
+<test id="s1-s1-s1-t2" name="Test Case 2" line="19">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:31.464484" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:31.464360" elapsed="0.000176"/>
+</kw>
+<kw name="Log Many" owner="BuiltIn">
+<msg time="2025-03-28T11:15:31.465020" level="INFO">a</msg>
+<msg time="2025-03-28T11:15:31.465058" level="INFO">b</msg>
+<msg time="2025-03-28T11:15:31.465083" level="INFO">c</msg>
+<msg time="2025-03-28T11:15:31.465105" level="INFO">d</msg>
+<msg time="2025-03-28T11:15:31.465125" level="INFO">e</msg>
+<msg time="2025-03-28T11:15:31.465144" level="INFO">f</msg>
+<msg time="2025-03-28T11:15:31.465166" level="INFO">g</msg>
+<msg time="2025-03-28T11:15:31.465185" level="INFO">h</msg>
+<msg time="2025-03-28T11:15:31.465204" level="INFO">i</msg>
+<msg time="2025-03-28T11:15:31.465228" level="INFO">j</msg>
+<msg time="2025-03-28T11:15:31.465248" level="INFO">k</msg>
+<msg time="2025-03-28T11:15:31.465267" level="INFO">l</msg>
+<msg time="2025-03-28T11:15:31.465285" level="INFO">m</msg>
+<msg time="2025-03-28T11:15:31.465303" level="INFO">n</msg>
+<msg time="2025-03-28T11:15:31.465321" level="INFO">o</msg>
+<msg time="2025-03-28T11:15:31.465339" level="INFO">p</msg>
+<msg time="2025-03-28T11:15:31.465357" level="INFO">q</msg>
+<msg time="2025-03-28T11:15:31.465377" level="INFO">r</msg>
+<msg time="2025-03-28T11:15:31.465395" level="INFO">s</msg>
+<msg time="2025-03-28T11:15:31.465416" level="INFO">t</msg>
+<msg time="2025-03-28T11:15:31.465435" level="INFO">u</msg>
+<msg time="2025-03-28T11:15:31.465453" level="INFO">v</msg>
+<msg time="2025-03-28T11:15:31.465471" level="INFO">w</msg>
+<msg time="2025-03-28T11:15:31.465489" level="INFO">x</msg>
+<msg time="2025-03-28T11:15:31.465508" level="INFO">y</msg>
+<msg time="2025-03-28T11:15:31.465526" level="INFO">z</msg>
+<arg>@{LETTERS}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<status status="PASS" start="2025-03-28T11:15:31.464869" elapsed="0.000691"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:34.466205" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:31.465857" elapsed="3.000468"/>
+</kw>
+<tag>requirement: 42</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2025-03-28T11:15:31.463859" elapsed="3.002820"/>
+</test>
+<test id="s1-s1-s1-t3" name="Test Case 3" line="24">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:34.467943" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:34.467834" elapsed="0.000152"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:37.468888" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:34.468256" elapsed="3.000718"/>
+</kw>
+<tag>requirement: 42</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2025-03-28T11:15:34.467416" elapsed="3.001785"/>
+</test>
+<meta name="@author">stefan923</meta>
+<meta name="@TSCID1109">true</meta>
+<status status="PASS" start="2025-03-28T11:15:28.448257" elapsed="9.021554"/>
+</suite>
+<suite id="s1-s1-s2" name="Twice Nested Suite" source="D:\RobotFramework\src\tests\nested_suite\twice_nested_suite">
+<suite id="s1-s1-s2-s1" name="SuiteD" source="D:\RobotFramework\src\tests\nested_suite\twice_nested_suite\SuiteD.robot">
+<test id="s1-s1-s2-s1-t1" name="Test Case 1" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:37.473199" level="INFO">Test Case 1</msg>
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:37.473106" elapsed="0.000134"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:40.473860" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:37.473405" elapsed="3.000538"/>
+</kw>
+<status status="PASS" start="2025-03-28T11:15:37.472704" elapsed="3.001508"/>
+</test>
+<test id="s1-s1-s2-s1-t2" name="Test Case 2" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:40.475480" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:40.475301" elapsed="0.000274"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:43.476438" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:40.475967" elapsed="3.000701"/>
+</kw>
+<status status="PASS" start="2025-03-28T11:15:40.474810" elapsed="3.002281"/>
+</test>
+<test id="s1-s1-s2-s1-t3" name="Test Case 3" line="13">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:43.478486" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:43.478278" elapsed="0.000289"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:46.479853" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:43.478862" elapsed="3.001085"/>
+</kw>
+<status status="PASS" start="2025-03-28T11:15:43.477646" elapsed="3.002670"/>
+</test>
+<meta name="@author stefan923"/>
+<status status="PASS" start="2025-03-28T11:15:37.471711" elapsed="9.009429"/>
+</suite>
+<status status="PASS" start="2025-03-28T11:15:37.470488" elapsed="9.011541"/>
+</suite>
+<meta name="@commonVar">true</meta>
+<status status="PASS" start="2025-03-28T11:15:28.446292" elapsed="18.036598"/>
+</suite>
+<suite id="s1-s2" name="SuiteA" source="D:\RobotFramework\src\tests\SuiteA.robot">
+<kw name="Connect to Server" type="SETUP">
+<msg time="2025-03-28T11:15:46.486792" level="FAIL">No keyword with name 'Connect to Server' found.</msg>
+<status status="FAIL" start="2025-03-28T11:15:46.486726" elapsed="0.000115">No keyword with name 'Connect to Server' found.</status>
+</kw>
+<test id="s1-s2-t1" name="Access All Users With Admin Rights" line="11">
+<doc>Tests if all users can be accessed with Admin User.</doc>
+<status status="FAIL" start="2025-03-28T11:15:46.486904" elapsed="0.000416">Parent suite setup failed:
+No keyword with name 'Connect to Server' found.</status>
+</test>
+<test id="s1-s2-t2" name="Create User With Admin Rights" line="16">
+<doc>Tests if a new users can be created with Admin User.</doc>
+<status status="FAIL" start="2025-03-28T11:15:46.488205" elapsed="0.000434">Parent suite setup failed:
+No keyword with name 'Connect to Server' found.</status>
+</test>
+<test id="s1-s2-t3" name="Update User with Admin Rights" line="29">
+<doc>Changes Password of an existing user.</doc>
+<status status="FAIL" start="2025-03-28T11:15:46.489333" elapsed="0.000359">Parent suite setup failed:
+No keyword with name 'Connect to Server' found.</status>
+</test>
+<test id="s1-s2-t4" name="Update Own Password With User Rights" line="36">
+<doc>Changes Password of an existing user.</doc>
+<status status="FAIL" start="2025-03-28T11:15:46.490393" elapsed="0.000439">Parent suite setup failed:
+No keyword with name 'Connect to Server' found.</status>
+</test>
+<test id="s1-s2-t5" name="Access Own Details With User Rights" line="43">
+<doc>Tests if a user can access own details</doc>
+<status status="FAIL" start="2025-03-28T11:15:46.491555" elapsed="0.000363">Parent suite setup failed:
+No keyword with name 'Connect to Server' found.</status>
+</test>
+<test id="s1-s2-t6" name="Access Other Users Details With User Rights" line="51">
+<doc>Tests does fail, due to insufficiant rights...</doc>
+<status status="FAIL" start="2025-03-28T11:15:46.492620" elapsed="0.000394">Parent suite setup failed:
+No keyword with name 'Connect to Server' found.</status>
+</test>
+<kw name="Disconnect" type="TEARDOWN">
+<msg time="2025-03-28T11:15:46.494386" level="FAIL">No keyword with name 'Disconnect' found.</msg>
+<status status="FAIL" start="2025-03-28T11:15:46.494350" elapsed="0.000076">No keyword with name 'Disconnect' found.</status>
+</kw>
+<doc>A test suite for valid login.
+
+Keywords are imported from the resource file</doc>
+<status status="FAIL" start="2025-03-28T11:15:46.483661" elapsed="0.010820">Suite setup failed:
+No keyword with name 'Connect to Server' found.
+
+Also suite teardown failed:
+No keyword with name 'Disconnect' found.</status>
+</suite>
+<suite id="s1-s3" name="SuiteB" source="D:\RobotFramework\src\tests\SuiteB.robot">
+<test id="s1-s3-t1" name="Test Case 1" line="2">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:46.496988" level="INFO">Test Case 1</msg>
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:46.496893" elapsed="0.000139"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:49.497608" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:46.497252" elapsed="3.000548"/>
+</kw>
+<status status="PASS" start="2025-03-28T11:15:46.496544" elapsed="3.001645"/>
+</test>
+<test id="s1-s3-t2" name="Test Case 2" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:49.499383" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:49.499248" elapsed="0.000196"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:52.500229" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:49.499688" elapsed="3.000654"/>
+</kw>
+<status status="PASS" start="2025-03-28T11:15:49.498820" elapsed="3.001844"/>
+</test>
+<test id="s1-s3-t3" name="Test Case 3" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:15:52.501773" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:15:52.501642" elapsed="0.000189"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:15:55.502601" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:15:52.502064" elapsed="3.000647"/>
+</kw>
+<status status="PASS" start="2025-03-28T11:15:52.501206" elapsed="3.001822"/>
+</test>
+<status status="PASS" start="2025-03-28T11:15:46.495316" elapsed="9.008341"/>
+</suite>
+<status status="FAIL" start="2025-03-28T11:15:28.417091" elapsed="27.087493"/>
+</suite>
+<statistics>
+<total>
+<stat pass="9" fail="6" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">not ready</stat>
+<stat pass="3" fail="0" skip="0">requirement: 42</stat>
+<stat pass="3" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="9" fail="6" skip="0">Tests</stat>
+<stat name="Nested Suite" id="s1-s1" pass="6" fail="0" skip="0">Tests.Nested Suite</stat>
+<stat name="SuiteC" id="s1-s1-s1" pass="3" fail="0" skip="0">Tests.Nested Suite.SuiteC</stat>
+<stat name="Twice Nested Suite" id="s1-s1-s2" pass="3" fail="0" skip="0">Tests.Nested Suite.Twice Nested Suite</stat>
+<stat name="SuiteD" id="s1-s1-s2-s1" pass="3" fail="0" skip="0">Tests.Nested Suite.Twice Nested Suite.SuiteD</stat>
+<stat name="SuiteA" id="s1-s2" pass="0" fail="6" skip="0">Tests.SuiteA</stat>
+<stat name="SuiteB" id="s1-s3" pass="3" fail="0" skip="0">Tests.SuiteB</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-28T11:15:46.485391" level="ERROR">Error in file 'D:\RobotFramework\src\tests\SuiteA.robot' on line 5: Resource file 'keywords.resource' does not exist.</msg>
+</errors>
+</robot>

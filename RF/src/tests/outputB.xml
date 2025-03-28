@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SuiteB" tests="3" errors="0" failures="0" skipped="0" time="9.035" timestamp="2025-03-28T11:10:36.521478">
+<testcase classname="SuiteB" name="Test Case 1" time="3.003">
+</testcase>
+<testcase classname="SuiteB" name="Test Case 2" time="3.003">
+</testcase>
+<testcase classname="SuiteB" name="Test Case 3" time="3.002">
+</testcase>
+</testsuite>
