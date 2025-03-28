@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Builderai Backend Integration Tests" tests="82" errors="0" failures="16" skipped="0" time="2993.038"
+            timestamp="2024-04-25T08:37:00000">
+    <testsuite name="Tests" tests="82" errors="0" failures="16" skipped="0" time="2993.020"
+               timestamp="2024-04-25T08:37:00000">
+        <testsuite name="Builder Nayaos Integration Tests" tests="82" errors="0" failures="16" skipped="0"
+                   time="2993.017" timestamp="2024-04-25T08:37:00000">
+            <testsuite name="Tests Bcloud Pb Integration" tests="1" errors="0" failures="0" skipped="0" time="595.736"
+                       timestamp="2024-04-25T08:37:01000">
+                <testcase
+                        classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.Tests Bcloud Pb Integration"
+                        name="Author : Rupesh | Test001 verify that downsync account from salesforce to pb-sf account for Different Currency Lead to account conversion case"
+                        time="593.922">
+                </testcase>
+                <properties>
+                    <property name="utc-offset" value="-19800"/>
+                </properties>
+            </testsuite>
+            <properties>
+                <property name="utc-offset" value="-19800"/>
+            </properties>
+        </testsuite>
+        <properties>
+            <property name="utc-offset" value="-19800"/>
+        </properties>
+    </testsuite>
+    <properties>
+        <property name="Documentation" value="[https://pabot.org/?ref=log|Pabot] result from 82 executions."/>
+        <property name="utc-offset" value="-19800"/>
+    </properties>
+</testsuites>
