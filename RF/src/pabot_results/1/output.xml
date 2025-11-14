@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-05-28T11:05:43.769879" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\dev\RobotTest\tests">
+<suite id="s1-s1" name="SuiteB" source="C:\dev\RobotTest\tests\SuiteB.robot">
+<test id="s1-s1-t1" name="Test Case 1" line="2">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-28T11:05:43.783399" level="INFO">Test Case 1</msg>
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-28T11:05:43.783399" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-28T11:05:46.783915" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-28T11:05:43.783399" elapsed="3.000516"/>
+</kw>
+<status status="PASS" start="2024-05-28T11:05:43.783399" elapsed="3.000516"/>
+</test>
+<test id="s1-s1-t2" name="Test Case 2" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-28T11:05:46.796062" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-28T11:05:46.795700" elapsed="0.000362"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-28T11:05:49.796766" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-28T11:05:46.796062" elapsed="3.000704"/>
+</kw>
+<status status="PASS" start="2024-05-28T11:05:46.784448" elapsed="3.012318"/>
+</test>
+<test id="s1-s1-t3" name="Test Case 3" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-28T11:05:49.796766" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-28T11:05:49.796766" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-28T11:05:52.796919" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-28T11:05:49.796766" elapsed="3.000153"/>
+</kw>
+<status status="PASS" start="2024-05-28T11:05:49.796766" elapsed="3.000153"/>
+</test>
+<status status="PASS" start="2024-05-28T11:05:43.783399" elapsed="9.013520"/>
+</suite>
+<status status="PASS" start="2024-05-28T11:05:43.776892" elapsed="9.020027"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="SuiteB">Tests.SuiteB</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

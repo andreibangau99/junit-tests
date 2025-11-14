@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1300.v03d9d8a_cf1fb_">
+  <suites>
+    <suite>
+      <file>C:\jenkins-agent\workspace\UFT-test-runner-12005-02\Results21012025074258824_325.xml</file>
+      <name>(Results21012025074258824_325.xml)</name>
+      <duration>2416.094</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>2416.094</duration>
+          <startTime>-1</startTime>
+          <className>All-Tests.Test group</className>
+          <testName>C:\jenkins-agent\_test_sources\_574fice__git_rg.ites.testoffice.nrt.aia\UFT\Scenari\NRT_UFT_AIA0_VI_EmissioneDiversoGS</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>21/01/2025 08:43:11 Running: C:\jenkins-agent\_test_sources\_574fice__git_rg.ites.testoffice.nrt.aia\UFT\Scenari\NRT_UFT_AIA0_VI_EmissioneDiversoGS
+Using external data table: C:\jenkins-agent\workspace\UFT-test-runner-12005-02\..\..\_test_sources\_574fice__git_rg.ites.testoffice.nrt.aia\UFT\DataTableSplit\DTS_EmissioneProdDiversodaGS_REALE_151A.xlsx
+Running test: C:\jenkins-agent\_test_sources\_574fice__git_rg.ites.testoffice.nrt.aia\UFT\Scenari\NRT_UFT_AIA0_VI_EmissioneDiversoGS
+Test result: Passed
+uftReportDir is C:\jenkins-agent\_test_sources\_574fice__git_rg.ites.testoffice.nrt.aia\UFT\Scenari\NRT_UFT_AIA0_VI_EmissioneDiversoGS\Report1
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>2416.094</duration>
+  <skipOldReports>false</skipOldReports>
+  <startTime>-1</startTime>
+  <stdioRetention>ALL</stdioRetention>
+  <keepTestNames>false</keepTestNames>
+  <keepProperties>false</keepProperties>
+</result>

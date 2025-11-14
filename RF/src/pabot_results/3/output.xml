@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-05-28T11:05:43.776892" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\dev\RobotTest\tests">
+<suite id="s1-s1" name="Nested Suite" source="C:\dev\RobotTest\tests\nested_suite">
+<suite id="s1-s1-s1" name="Twice Nested Suite" source="C:\dev\RobotTest\tests\nested_suite\twice_nested_suite">
+<suite id="s1-s1-s1-s1" name="SuiteD" source="C:\dev\RobotTest\tests\nested_suite\twice_nested_suite\SuiteD.robot">
+<test id="s1-s1-s1-s1-t1" name="Test Case 1" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-28T11:05:43.799348" level="INFO">Test Case 1</msg>
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-28T11:05:43.799348" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-28T11:05:46.799656" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-28T11:05:43.799348" elapsed="3.000308"/>
+</kw>
+<status status="PASS" start="2024-05-28T11:05:43.799348" elapsed="3.000841"/>
+</test>
+<test id="s1-s1-s1-s1-t2" name="Test Case 2" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-28T11:05:46.801220" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-28T11:05:46.800189" elapsed="0.001031"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-28T11:05:49.801607" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-28T11:05:46.801220" elapsed="3.000387"/>
+</kw>
+<status status="PASS" start="2024-05-28T11:05:46.800189" elapsed="3.001418"/>
+</test>
+<test id="s1-s1-s1-s1-t3" name="Test Case 3" line="13">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-28T11:05:49.802215" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-28T11:05:49.802215" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-28T11:05:52.802525" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-28T11:05:49.802215" elapsed="3.000396"/>
+</kw>
+<status status="PASS" start="2024-05-28T11:05:49.801607" elapsed="3.001004"/>
+</test>
+<meta name="@author stefan923"/>
+<status status="PASS" start="2024-05-28T11:05:43.788280" elapsed="9.014331"/>
+</suite>
+<status status="PASS" start="2024-05-28T11:05:43.788280" elapsed="9.014835"/>
+</suite>
+<meta name="@commonVar">true</meta>
+<status status="PASS" start="2024-05-28T11:05:43.788280" elapsed="9.014835"/>
+</suite>
+<status status="PASS" start="2024-05-28T11:05:43.788280" elapsed="9.014835"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="Nested Suite">Tests.Nested Suite</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1-s1" name="Twice Nested Suite">Tests.Nested Suite.Twice Nested Suite</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1-s1-s1" name="SuiteD">Tests.Nested Suite.Twice Nested Suite.SuiteD</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-28T11:12:47.140832" rpa="false" schemaversion="5">
+<suite id="s1" name="SuiteC" source="D:\RobotFramework\src\tests\nested_suite\SuiteC.robot">
+<test id="s1-t1" name="Test Case 1" line="12">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:12:47.177149" level="INFO">Test Case 1</msg>
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:12:47.177023" elapsed="0.000180"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:12:47.177630" level="INFO">This is a global variable!</msg>
+<arg>${GLOBAL_VAR1}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:12:47.177490" elapsed="0.000186"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:12:50.178572" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:12:47.177925" elapsed="3.000740"/>
+</kw>
+<doc>@TSCID1109: Verify login functionality</doc>
+<tag>not ready</tag>
+<tag>requirement: 42</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2025-03-28T11:12:47.176259" elapsed="3.002763"/>
+</test>
+<test id="s1-t2" name="Test Case 2" line="19">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:12:50.180380" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:12:50.180265" elapsed="0.000162"/>
+</kw>
+<kw name="Log Many" owner="BuiltIn">
+<msg time="2025-03-28T11:12:50.180847" level="INFO">a</msg>
+<msg time="2025-03-28T11:12:50.180877" level="INFO">b</msg>
+<msg time="2025-03-28T11:12:50.180900" level="INFO">c</msg>
+<msg time="2025-03-28T11:12:50.180919" level="INFO">d</msg>
+<msg time="2025-03-28T11:12:50.180935" level="INFO">e</msg>
+<msg time="2025-03-28T11:12:50.180958" level="INFO">f</msg>
+<msg time="2025-03-28T11:12:50.180975" level="INFO">g</msg>
+<msg time="2025-03-28T11:12:50.180995" level="INFO">h</msg>
+<msg time="2025-03-28T11:12:50.181012" level="INFO">i</msg>
+<msg time="2025-03-28T11:12:50.181027" level="INFO">j</msg>
+<msg time="2025-03-28T11:12:50.181042" level="INFO">k</msg>
+<msg time="2025-03-28T11:12:50.181057" level="INFO">l</msg>
+<msg time="2025-03-28T11:12:50.181073" level="INFO">m</msg>
+<msg time="2025-03-28T11:12:50.181088" level="INFO">n</msg>
+<msg time="2025-03-28T11:12:50.181103" level="INFO">o</msg>
+<msg time="2025-03-28T11:12:50.181118" level="INFO">p</msg>
+<msg time="2025-03-28T11:12:50.181133" level="INFO">q</msg>
+<msg time="2025-03-28T11:12:50.181149" level="INFO">r</msg>
+<msg time="2025-03-28T11:12:50.181164" level="INFO">s</msg>
+<msg time="2025-03-28T11:12:50.181180" level="INFO">t</msg>
+<msg time="2025-03-28T11:12:50.181194" level="INFO">u</msg>
+<msg time="2025-03-28T11:12:50.181209" level="INFO">v</msg>
+<msg time="2025-03-28T11:12:50.181224" level="INFO">w</msg>
+<msg time="2025-03-28T11:12:50.181240" level="INFO">x</msg>
+<msg time="2025-03-28T11:12:50.181255" level="INFO">y</msg>
+<msg time="2025-03-28T11:12:50.181271" level="INFO">z</msg>
+<arg>@{LETTERS}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<status status="PASS" start="2025-03-28T11:12:50.180716" elapsed="0.000585"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:12:53.182124" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:12:50.181556" elapsed="3.000653"/>
+</kw>
+<tag>requirement: 42</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2025-03-28T11:12:50.179802" elapsed="3.002716"/>
+</test>
+<test id="s1-t3" name="Test Case 3" line="24">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-28T11:12:53.183808" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-28T11:12:53.183715" elapsed="0.000130"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-28T11:12:56.184747" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-28T11:12:53.184085" elapsed="3.000774"/>
+</kw>
+<tag>requirement: 42</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2025-03-28T11:12:53.183335" elapsed="3.001973"/>
+</test>
+<meta name="@author">stefan923</meta>
+<meta name="@TSCID1109">true</meta>
+<status status="PASS" start="2025-03-28T11:12:47.143195" elapsed="9.043362"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">not ready</stat>
+<stat pass="3" fail="0" skip="0">requirement: 42</stat>
+<stat pass="3" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="SuiteC" id="s1" pass="3" fail="0" skip="0">SuiteC</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

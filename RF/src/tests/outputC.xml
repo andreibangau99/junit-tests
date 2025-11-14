@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SuiteC" tests="3" errors="0" failures="0" skipped="0" time="9.043" timestamp="2025-03-28T11:12:47.143195">
+<testcase classname="SuiteC" name="Test Case 1" time="3.003">
+</testcase>
+<testcase classname="SuiteC" name="Test Case 2" time="3.003">
+</testcase>
+<testcase classname="SuiteC" name="Test Case 3" time="3.002">
+</testcase>
+<properties>
+<property name="@author" value="stefan923"/>
+<property name="@TSCID1109" value="true"/>
+</properties>
+</testsuite>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Builderai Backend Integration Tests" tests="82" errors="0" failures="16" skipped="0" time="2993.038" timestamp="2024-04-25T08:37:00000">
+<testsuite name="Tests" tests="82" errors="0" failures="16" skipped="0" time="2993.020" timestamp="2024-04-25T08:37:00000">
+<testsuite name="Builder Nayaos Integration Tests" tests="82" errors="0" failures="16" skipped="0" time="2993.017" timestamp="2024-04-25T08:37:00000">
+<testsuite name="Tests Bcloud Pb Integration" tests="1" errors="0" failures="0" skipped="0" time="595.736" timestamp="2024-04-25T08:37:01000">
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.Tests Bcloud Pb Integration" name="Author : Rupesh | Test001 verify that downsync account from salesforce to pb-sf account for Different Currency Lead to account conversion case" time="593.922">
+</testcase>
+<properties>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuite>
+<testsuite name="tests SFInvoiceIntegration" tests="8" errors="0" failures="0" skipped="0" time="551.915" timestamp="2024-04-25T08:37:00000">
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SFInvoiceIntegration" name="Author:Parshant arya | Test to verify Deposit invoice sync to SF for Studio Pro Build card with Monthly frequncy with USD currency" time="263.778">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SFInvoiceIntegration" name="Author:Parshant arya | Test to verify Deposit invoice sync to SF for Studio Pro Build card with weekly frequncy with USD currency" time="145.883">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SFInvoiceIntegration" name="Author:Parshant arya | Test to verify Deposit invoice sync to SF for Studio Pro Build card with upfront frequncy with USD currency" time="265.014">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SFInvoiceIntegration" name="Author:Parshant arya | Test to verify Deposit invoice sync to SF for Studio Pro Build card with Monthly frequncy with INR currency" time="138.752">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SFInvoiceIntegration" name="Author:Parshant arya | Test to verify Deposit invoice sync to SF for Studio Pro Build card with weekly frequncy with INR currency" time="183.088">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SFInvoiceIntegration" name="Author:Parshant arya | Test to verify Deposit invoice sync to SF for Studio Pro Build card with upfront frequncy with INR currency" time="146.952">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SFInvoiceIntegration" name="Author:Parshant arya | Test to verify Deposit invoice sync to SF with offline payment for Studio Pro Build card with Monthly frequncy with USD currency" time="145.994">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SFInvoiceIntegration" name="Author:Parshant arya | Test to verify Deposit invoice sync to SF with offline payment for Studio Pro Build card with Monthly frequncy with INR currency" time="132.143">
+</testcase>
+<properties>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuite>
+<testsuite name="tests SpecCalls Integration" tests="1" errors="0" failures="1" skipped="0" time="9.120" timestamp="2024-04-25T08:44:20000">
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests SpecCalls Integration" name="Author : Tejas | Verify Spec Call Sync SF Without Creating A Build Card" time="7.339">
+<failure message="Variable '${email}' not found. Did you mean:&#10;    ${leadEmail}" type="AssertionError"/>
+</testcase>
+<properties>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuite>
+<testsuite name="tests leadIntegration" tests="23" errors="0" failures="3" skipped="0" time="460.366" timestamp="2024-04-25T08:44:30000">
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync to pb-zoho, pb-sf and sf sandbox" time="27.335">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for INR currency" time="27.877">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for USD currency" time="27.614">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for GBP currency" time="28.027">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for EUR currency" time="29.327">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for CAD currency" time="29.005">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for SAR currency" time="28.890">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for JPY currency" time="27.166">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for SGD currency" time="26.731">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for YEN currency" time="26.872">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Test to verify lead sync and lead module fields verification at pb-zoho pb-sf and sf sandbox post signup from studio for AED currency" time="26.850">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Create a user with UTM params from studio and verify UTM params at lead level in zoho &amp; SF in pb and in SF CRM" time="28.689">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Verify PRODUCT TYPE Store In PB Zoho And SF Lead And Salesforce" time="26.626">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author: Tejas | Verify If Last Name Is Empty Then It Should Reflect LNU On Zoho, Sf Lead And SF Sandbox" time="28.856">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Verify Lead Created With Builder.ai Domain Is Not Get Synced To PB And SF Sandbox" time="47.274">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author: Tejas | Verify Lead Status On SF Lead" time="23.005">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Verify EMAIL in pb zoho and sf lead and salesforce" time="30.107">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Verify that sf lead to sf contact conversion is happend after creating a studio enterprise build card" time="100.992">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Verify that sf lead to sf contact conversion is happend after creating a professional prototype build card" time="147.569">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Verify that sf lead to sf contact conversion is happend after creating a tailor made build card" time="95.267">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Test to verify sf lead is linked with sf potential for buildcard types" time="204.883">
+<failure message="Keyword 'Make Get Request' failed after retrying 15 times. The last error was: HTTPError: 404 Client Error: Not Found for url: https://purple-bottle.staging.builder.ai/api/v1/sf/potentials/search_by?source_model_guid=1524463" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Verify lead status Lead sync to Pb and Salesforce" time="23.309">
+<failure message="Converted != Lead" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests leadIntegration" name="Author : Tejas | Verify that Currency is upsync to pb zoho lead,sf lead and SFDC side" time="153.814">
+<failure message="Keyword 'Make Get Request' failed after retrying 12 times. The last error was: HTTPError: 404 Client Error: Not Found for url: https://purple-bottle.staging.builder.ai/api/v1/zoho/leads/search_by?q%5Bemail%5D=%20test9920240425141939111610@nayaos.msdc.co" type="AssertionError"/>
+</testcase>
+<properties>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuite>
+<testsuite name="tests potentialIntegration" tests="11" errors="0" failures="1" skipped="0" time="353.631" timestamp="2024-04-25T08:49:47000">
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Parshant arya | TC_001 | Test to verify potential sync for Studio Pro Build card with Monthly frequncy with USD currency" time="71.750">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Parshant arya | TC_002 | Test to verify potential sync for Studio Pro Build card with Weekly frequncy with INR currency" time="235.928">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Parshant arya | TC_003 | Test to verify potential sync for Studio Pro Build card with upfront frequncy with EUR currency" time="64.359">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Hakan Bayraker | TC_009 | Test to verify potential sync for Professional Build card with Monthly frequncy with USD currency" time="60.992">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Hakan Bayraker | TC_010 | Test to verify potential sync for Professional Build card with Weekly frequncy with INR currency" time="54.723">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Hakan Bayraker | TC_011 | Test to verify potential sync for Professional Build card with upfront frequncy with EUR currency" time="56.581">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Hakan Bayraker | TC_014 | Test to verify potential sync for Tailormade Build card with Monthly frequncy with USD currency" time="49.556">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Hakan Bayraker | TC_015 | Test to verify potential sync for Tailormade Build card with Weekly frequncy with INR currency" time="85.555">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author:Hakan Bayraker | TC_016 | Test to verify potential sync for Tailormade Build card with upfront frequncy with EUR currency" time="88.434">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author : Tejas | TC_017 | Verify B360 Status in Zoho, SF Potential And SF Sandbox After Kickoff" time="134.404">
+<failure message="Keyword 'Make Get Request' failed after retrying 12 times. The last error was: HTTPError: 404 Client Error: Not Found for url: https://purple-bottle.staging.builder.ai/api/v1/zoho/leads/search_by?q%5Bemail%5D=%20test9920240425142327467697@nayaos.msdc.co" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests potentialIntegration" name="Author : Tejas | TC_018 | Verify build card total tax in pb zoho and sf potential and sf sandbox" time="61.123">
+</testcase>
+<properties>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuite>
+<testsuite name="tests zohoAccountAndSfContact" tests="38" errors="0" failures="11" skipped="0" time="1938.513" timestamp="2024-04-25T08:54:35000">
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Test to verify zoho Account and sf contact syncing on pb -zoho, pb-sf contacts and sf sandbox" time="98.593">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Test To Verify That SF Contact Should Not Be Synced If Payment Is Not Made" time="341.885">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas |Verify Builder User ID In PB Zoho Account, SF Contact" time="45.169">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : | Tejas | Verify Country Name And ISO In PB Zoho Account And SF Contact For USD" time="102.377">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify Source For Normal Build Card On SF Contact PB and SF Sandbox" time="121.921">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Test to verify zoho Account and sf contact fields verification on pb -zoho, pb-sf contacts and sf sandbox" time="107.601">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author:Tejas | Verify Build Card Status On Zoho And SF Potential For Unpaid Build Cards" time="269.421">
+<failure message="Keyword 'Make Get Request using params' failed after retrying 15 times. The last error was: HTTPError: 404 Client Error: Not Found for url: https://purple-bottle.staging.builder.ai/api/v1/zoho/potentials/search_by?source_model_guid=1524511" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author:Tejas| Verify Build Card Status On Zoho And SF Potential For Paid Build Cards" time="274.460">
+<failure message="Keyword 'Build Card Status For Zoho Potential Should Be' failed after retrying 15 times. The last error was: started != under_development" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Create a user and build card in studio and check zoho contact in pb" time="32.517">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Create an enterprise user from studio and verify enterprise_lead value and potential type at potential level in pb &amp; SF" time="39.137">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Create a user with UTM params from studio and verify UTM params at SF contact level in pb and sf sandbox" time="106.040">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Test to verify Bant QnA at account and sf contact level in pb as an enterprise user" time="145.401">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Test to verify that owning entity in pb-zoho account and salesforce" time="104.513">
+<failure message="None != IND_OWNING_ENTITY" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify Product Type Is Studio For Studio Pro Build Card In Zoho Account, SF Contact And Sf Sandbox" time="106.338">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify Lead Source Is Organic On SF Contact And Salesforce Sandbox" time="101.306">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify Own Referral Field On Zoho Account And SF Contact" time="42.869">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify IP ADDRESS in pb zoho account ,pb sf contact and salesforce" time="97.530">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify is address available field is populated as Yes at SF contact level" time="926.500">
+<failure message="Several failures occurred:&#10;&#10;1) Keyword 'Check Is Address Available On SF contact' failed after retrying 9 times. The last error was: false != true&#10;&#10;2) Keyword 'Check Is Address Available On SF contact' failed after retrying 9 times. The last error was: false != true&#10;&#10;3) Keyword 'Check Is Address Available On SF contact' failed after retrying 9 times. The last error was: false != true" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify is address available field is populated as No at SF contact level for AED currency" time="164.348">
+<failure message="Keyword 'Check Is Address Available On SF contact' failed after retrying 9 times. The last error was: false != true" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify downsync of channel_partner field at SF contact level" time="149.781">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Test to verify that dowynsync enterprise lead flag is yes from salesforce at contact level and notify to studio" time="144.599">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Auhtor : Tejas | Verify downsync of channel_partner field at SF Buildcard level" time="89.026">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify that downsync Build card field Offline_Contract__c from Sfdc to pb sf potential with studio pro build card currency INR" time="94.209">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify that existing user with bnpl flag as true should provide new build card normal payment option" time="30.704">
+<failure message="Variable '${b360_project_resp.json()}[data][project][payment_details]' is None, which is not subscriptable, and thus accessing item 'payment_partner' from it is not possible. To use '[payment_partner]' as a literal value, it needs to be escaped like '\[payment_partner]'." type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify that downsync of bnpl flag at sf contact level for new user build card capchase payment treated as a normal payment" time="207.835">
+<failure message="Variable '${b360_project_resp.json()}[data][project][payment_details]' is None, which is not subscriptable, and thus accessing item 'payment_partner' from it is not possible. To use '[payment_partner]' as a literal value, it needs to be escaped like '\[payment_partner]'." type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify build card nda url in pb zoho and sf potential and sf sandbox" time="64.475">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify build card contract url in pb zoho and sf potential and sf sandbox" time="42.998">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify build card pdf url in pb zoho and sf potential and sf sandbox" time="42.552">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | TC_020 | Verify downsync of all 3 BC metadata fields with studio pro BC and INR currency" time="92.988">
+<failure message="Keyword 'Make Get Request' failed after retrying 15 times. The last error was: HTTPError: 404 Client Error: Not Found for url: https://purple-bottle.staging.builder.ai/api/v1/sf/potentials/search_by?source_model_guid=1524561" type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Test to verify that downsync contact field Account_VIPCIP__c value is[ VIP]from Sfdc to pb sf contactwith studio pro build card currency inr" time="300.016">
+<failure message="Test timeout 5 minutes exceeded." type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : | Tejas | Test to verify that SALES ORDER TYPE = studio enterprises pb-zoho sales order and pb- sf sales order and sf sandbox" time="304.160">
+<failure message="Test timeout 5 minutes exceeded." type="AssertionError"/>
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify that care annual value when Studio One Plus feature is selected" time="102.689">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify that care annual value when Studio One Plus feature is not selected" time="98.100">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify that care annual value when Enterprise One Plus feature is selected" time="116.871">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify that care annual value when Enterprise One Plus feature is not selected" time="98.833">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Tejas | Verify that care annual value should be populated as zero for PP/TM Build cards" time="121.967">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author: Tejas | Verify Upsync Partner Field From PB To Salesforce" time="43.047">
+</testcase>
+<testcase classname="Builderai Backend Integration Tests.Tests.Builder Nayaos Integration Tests.tests zohoAccountAndSfContact" name="Author : Verify Values Sync To Zoho Account, SF Contact And SF Sandbox" time="606.474">
+<failure message="Several failures occurred:&#10;&#10;1) Keyword 'Verify Values From Get API' failed after retrying 5 times. The last error was: Query failed after 5 retries&#10;&#10;2) Keyword 'Verify Values From Get API' failed after retrying 9 times. The last error was: Query failed after 5 retries&#10;&#10;3) Test timeout 10 minutes exceeded." type="AssertionError"/>
+</testcase>
+<properties>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuite>
+<properties>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuite>
+<properties>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuite>
+<properties>
+<property name="Documentation" value="[https://pabot.org/?ref=log|Pabot] result from 82 executions."/>
+<property name="utc-offset" value="-19800"/>
+</properties>
+</testsuites>
