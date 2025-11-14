@@ -2,6 +2,8 @@ package com.opentext.mada;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -46,9 +48,25 @@ public class GraderTest {
         assertEquals('B',grader.determineLetterGrade(80));
     }
 
-    @Test
-    public void negativeOneShouldReturnIllegalArgumentException() {
+    @ParameterizedTest
+    @ValueSource(ints = {25,50,75})
+    public void parameterizedGrade(int grade) {
         Grader grader = new Grader();
+        assertEquals('C',grader.determineLetterGrade(grade));
+    }
+
+    @Test
+    public void zOneHundredShouldReturnA () {
+        Grader grader = new Grader();
+        assertEquals('A',grader.determineLetterGrade(100));
+    }
+
+    @Test
+    public void negativeOneShouldReturnIllegalArgumentException() throws InterruptedException {
+        Grader grader = new Grader();
+        System.out.println("before sleep");
+//        Thread.sleep(1000000);
+        System.out.println("after sleep");
         assertThrows(IllegalArgumentException.class, () -> {
             grader.determineLetterGrade(-1);
         });

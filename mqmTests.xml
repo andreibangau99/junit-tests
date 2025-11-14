@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><test_result><build server_id="to-be-filled-in-SDK" job_id="Stable/job/Edpay_Run_features_by_tag" build_id="401"></build><test_runs><gherkin_test_run duration="0" name="Susan Test" status="Failed"><feature name="Susan Test" path="src/test/resources/features/edpay/Dev_Susan.feature" started="1721970279335" tag=""><file>#Auto generated Octane revision tag
+@TID447003REV0.1.0
+@EDPAY @SUSAN @INDEV
+
+Feature: Susan Test
+
+  Scenario: Scenario - One
+    Given Employee details are generated
+      | workFun | award | empStatus |
+      | S12     | PTC7  | TPFA      |
+
+    When Allowance types are requested
+    Then The Assignment API returns no Allowance Types
+    And The 'API_LOGS' table contains the following values
+      | path                                                                | httpmethod | statuscode | USERID        |
+      | /api/v1/assignments/[AdminSchoolId]-[EMPLOYEEID]-01/allowance-types | GT        | 200        | [ADMINUSERID] |
+
+
+  Scenario: Scenario - Two
+    Given PREREQUISITE: '28/06/24' is on or before '28/06/23'
+    And Employee details are generated
+      | workFun | award | empStatus |
+      | S12     | PTC7  | TPFA      |
+
+    When Allowance types are requested
+    Then The Assignment API returns no Allowance Types
+    And The 'API_LOGS' table contains the following values
+      | path                                                                | httpmethod | statuscode | USERID        |
+      | /api/v1/assignments/[AdminSchoolId]-[EMPLOYEEID]-01/allowance-types | GET        | 200        | [ADMINUSERID] |
+
+
+  Scenario: Scenario - Three
+    Given Employee details are generated
+      | workFun | award | empStatus |
+      | S12     | PTC7  | TPFA      |
+
+    When Allowance types are requested
+    Then The Assignment API returns no Allowance Types
+    And The 'API_LOGS' table contains the following values
+      | path                                                                | httpmethod | statuscode | USERID        |
+      | /api/v1/assignments/[AdminSchoolId]-[EMPLOYEEID]-01/allowance-types | GET         | 200        | [ADMINUSERID] |</file><scenarios><scenario name="Scenario - One" status="Failed"><steps><step duration="0" name="Given Employee details are generated  | workFun | award | empStatus |  | S12 | PTC7 | TPFA |" status="passed"></step><step duration="0" name="When Allowance types are requested" status="passed"></step><step duration="0" name="Then The Assignment API returns no Allowance Types" status="passed"></step><step duration="0" name="And The 'API_LOGS' table contains the following values  | path | httpmethod | statuscode | USERID |  | /api/v1/assignments/[AdminSchoolId]-[EMPLOYEEID]-01/allowance-types | GT | 200 | [ADMINUSERID] |" status="failed"><error_message>java.lang.AssertionError: API_LOGS: No match found
+select count(*) from API_LOGS where path = '/api/v1/assignments/90073-8001279-01/allowance-types' and httpmethod = 'GT' and statuscode = '200' and USERID = '8000150' 
+Expected: is a value greater than &lt;0&gt;
+     but: &lt;0&gt; was equal to &lt;0&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at nz.epl.stepdefs.edpay.EdpayCommonStepDef.verifyDatabaseTable(EdpayCommonStepDef.java:1102)
+	at ✽.The 'API_LOGS' table contains the following values(src/test/resources/features/edpay/Dev_Susan.feature:14)
+</error_message></step></steps></scenario><scenario name="Scenario - Two" status="Skipped"><steps><step duration="0" name="Given PREREQUISITE: '28/06/24' is on or before '28/06/23'" status="skipped"></step><step duration="0" name="And Employee details are generated  | workFun | award | empStatus |  | S12 | PTC7 | TPFA |" status="skipped"></step><step duration="0" name="When Allowance types are requested" status="skipped"></step><step duration="0" name="Then The Assignment API returns no Allowance Types" status="skipped"></step><step duration="0" name="And The 'API_LOGS' table contains the following values  | path | httpmethod | statuscode | USERID |  | /api/v1/assignments/[AdminSchoolId]-[EMPLOYEEID]-01/allowance-types | GET | 200 | [ADMINUSERID] |" status="skipped"></step></steps></scenario><scenario name="Scenario - Three" status="Passed"><steps><step duration="0" name="Given Employee details are generated  | workFun | award | empStatus |  | S12 | PTC7 | TPFA |" status="passed"></step><step duration="0" name="When Allowance types are requested" status="passed"></step><step duration="0" name="Then The Assignment API returns no Allowance Types" status="passed"></step><step duration="0" name="And The 'API_LOGS' table contains the following values  | path | httpmethod | statuscode | USERID |  | /api/v1/assignments/[AdminSchoolId]-[EMPLOYEEID]-01/allowance-types | GET | 200 | [ADMINUSERID] |" status="passed"></step></steps></scenario></scenarios></feature></gherkin_test_run></test_runs></test_result>

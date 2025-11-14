@@ -4,18 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c96bf4f5-fd24-4991-b2bd-f727a2e0969b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="c96bf4f5-fd24-4991-b2bd-f727a2e0969b" name="Changes" comment="another test class">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/opentext/mada/AnotherSimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/opentext/mada/AnotherSimpleCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/opentext/mada/GraderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/opentext/mada/GraderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/junit-tests-1.0-SNAPSHOT-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/junit-tests-1.0-SNAPSHOT-tests.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/junit-tests-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/junit-tests-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/opentext/mada/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/opentext/mada/SimpleCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/opentext/mada/SquareRootCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/opentext/mada/SquareRootCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/opentext/mada/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/opentext/mada/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/opentext/mada/TestSuiteSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/opentext/mada/TestSuiteSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/junit-tests-1.0-SNAPSHOT-tests.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/junit-tests-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,26 +37,144 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2WwAFBD35OpRLsbdyTQE0R6HsFG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/workspace/junit-tests/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.GraderTest.parameterGradeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SquareRootCalculatorTest.SixteenSqrtShouldBeFour.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSuiteSuite.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/junit-tests/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.opentext.mada" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.opentext.mada" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GraderTest.parameterGradeTest">
+    <configuration name="GraderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opentext.mada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opentext.mada" />
+      <option name="MAIN_CLASS_NAME" value="com.opentext.mada.GraderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraderTest.parameterGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opentext.mada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opentext.mada" />
+      <option name="MAIN_CLASS_NAME" value="com.opentext.mada.GraderTest" />
+      <option name="METHOD_NAME" value="parameterGradeTest(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareRootCalculatorTest.SixteenSqrtShouldBeFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opentext.mada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opentext.mada" />
+      <option name="MAIN_CLASS_NAME" value="com.opentext.mada.SquareRootCalculatorTest" />
+      <option name="METHOD_NAME" value="SixteenSqrtShouldBeFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opentext.mada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opentext.mada" />
+      <option name="MAIN_CLASS_NAME" value="com.opentext.mada.TestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuiteSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opentext.mada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opentext.mada" />
+      <option name="MAIN_CLASS_NAME" value="com.opentext.mada.TestSuiteSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GraderTest.parameterGradeTest" />
+        <item itemvalue="JUnit.TestSuiteSuite" />
+        <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="JUnit.SquareRootCalculatorTest.SixteenSqrtShouldBeFour" />
+        <item itemvalue="JUnit.GraderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,10 +184,101 @@
       <option name="presentableId" value="Default" />
       <updated>1697633164145</updated>
       <workItem from="1697633165197" duration="926000" />
+      <workItem from="1709890712577" duration="2103000" />
+      <workItem from="1710921231098" duration="3827000" />
+      <workItem from="1718867287811" duration="1344000" />
+      <workItem from="1719986702438" duration="8987000" />
+      <workItem from="1720163078450" duration="579000" />
+      <workItem from="1720679078514" duration="3674000" />
+      <workItem from="1728552025933" duration="5409000" />
     </task>
+    <task id="LOCAL-00001" summary="pom">
+      <option name="closed" value="true" />
+      <created>1709891521623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709891521623</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jars">
+      <option name="closed" value="true" />
+      <created>1710921997830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710921997831</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jars">
+      <option name="closed" value="true" />
+      <created>1710942686000</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710942686000</updated>
+    </task>
+    <task id="LOCAL-00004" summary="parameterTest">
+      <option name="closed" value="true" />
+      <created>1719988312096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719988312096</updated>
+    </task>
+    <task id="LOCAL-00005" summary="another test">
+      <option name="closed" value="true" />
+      <created>1720010460877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720010460877</updated>
+    </task>
+    <task id="LOCAL-00006" summary="another test class">
+      <option name="closed" value="true" />
+      <created>1720011603160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720011603160</updated>
+    </task>
+    <task id="LOCAL-00007" summary="another test class">
+      <option name="closed" value="true" />
+      <created>1720012189221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720012189222</updated>
+    </task>
+    <task id="LOCAL-00008" summary="another test class">
+      <option name="closed" value="true" />
+      <created>1720681081273</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720681081273</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pom" />
+    <MESSAGE value="jars" />
+    <MESSAGE value="parameterTest" />
+    <MESSAGE value="another test" />
+    <MESSAGE value="another test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="another test class" />
   </component>
 </project>

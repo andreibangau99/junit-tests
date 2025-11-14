@@ -4,7 +4,27 @@
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
+      <option name="url" value="https://nexus.octane.admlabs.aws.swinfra.net/nexus/content/groups/mqm-public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repo.jenkins-ci.org" />
+      <option name="name" value="repo.jenkins-ci.org" />
+      <option name="url" value="https://repo.jenkins-ci.org/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="nexus" />
+      <option name="url" value="https://nexus.octane.admlabs.aws.swinfra.net/nexus/content/groups/mqm-public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repo.jenkins-ci.org" />
+      <option name="name" value="repo.jenkins-ci.org" />
+      <option name="url" value="https://nexus.octane.admlabs.aws.swinfra.net/nexus/content/groups/mqm-public" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
