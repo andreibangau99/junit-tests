@@ -9,8 +9,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
-public class GraderTest {
+public class GraderTest { public String grade(int score) {
+        if (score < 0 || score > 100) {
+            return null;
+        }
 
+        if (score >= 90) return "A";
+        if (score >= 80) return "B";
+        if (score >= 70) return "C";
+        if (score >= 60) return "D";
+        return "F";
+    }
+}
     @Test
    public void fiftyNineShouldReturnF () {
         Grader grader = new Grader();
